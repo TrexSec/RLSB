@@ -211,6 +211,7 @@ count = read(fd, buf, nbytes);
 https://www.python.org/
 
 下载rlsb脚本
+
 [rlsb脚本][1]
 
 然后使用下面命令运行脚本即可。(要在脚本目录下)
@@ -218,7 +219,9 @@ https://www.python.org/
 
 ###**其他代码版**
 
+
 *敬请期待*
+
 
 ##参考文献
 
@@ -233,5 +236,5 @@ https://www.python.org/
  [1]: https://github.com/zhengjim/RLSB/blob/master/rlsb.py
 
 
-本项目将不断更新，如果你感兴趣，可以持续关注, 点 Watch 或者 Star。同时，欢迎你提出宝贵的意见，或者投稿。使用 issues。
+本项目将不断更新（将会推出英文版），如果你感兴趣，可以持续关注, 点 Watch 或者Star。同时，欢迎你提出宝贵的意见，或者投稿。使用 issues。
 
