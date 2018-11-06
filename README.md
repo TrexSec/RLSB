@@ -18,7 +18,7 @@ RLSB技术主要分为四大块：
 RPC的概念与技术早在1981年由Nelson提出。1984年，Birrell和Nelson把其用于支持异构型分布式系统间的通讯。Birrell的RPC 模型引入存根进程( stub) 作为远程的本地代理，调用RPC运行时库来传输网络中的调用。Stub和RPC runtime屏蔽了网络调用所涉及的许多细节，特别是，参数的编码/译码及网络通讯是由stub和RPC runtime完成的，因此这一模式被各类RPC所采用。由于分布式系统的异构性及分布式计算模式与计算任务的多样性，RPC作为网络通讯与委托计算的实现机制，在方法、协议、语义、实现上不断发展，种类繁多，其中SUN公司和开放软件基金会在其分布式产品中所建立和实用的RPC较为典型。
 在SUN公司的网络文件系统NFS及开放网络计算环境ONC中，RPC是基本实现技术。OSF酝酿和发展的另一个重要的分布式计算软件环境DCE也是基于RPC的。在这两个系统中，RPC既是其自身的实现机制，又是提供给用户设计分布式应用程序的高级工具。由于对分布式计算的广泛需求，ONC和DCE成为Client/Server模式分布式计算环境的主流产品，而RPC也成为实现分布式计算的事实标准之一。
 
-![](http://incdn1.b0.upaiyun.com/2016/09/28c8edde3d61a0411511d3b1866f0636.png)
+![](./1.jpg)
 
 ###分布式计算环境中的 RPC(DCE RPC)
 
@@ -34,7 +34,7 @@ Sun RPC 的另一个缺陷是，客户端必须知道服务器在哪台机器上
 
 DCE RPC 定义了 NDR (Network Data Representation) 用于对网络进行编码来封送信息。与用一个单一的规范来表示不同的数据类型相比，NDR 支持多规范（multi-canonical）格式。允许客户端来选择使用哪种格式，理想的情况是不需要将它从本地类型来转换。如果这不同于服务器的本地数据表示,服务器将仍然需要转换，但多规范格式可以避免当客户端和服务器都共享相同的本地格式的情况下转换为其他外部格式。例如,在一个规定了大端字节序网络数据格式的情况下，客户端和服务器只支持小端字节序，那么客户端必须将每个数据从小端字节序转为大端字节序，而当服务器接受到消息后,将每个数据转回小端字节序。多规范网络数据表示将允许客户端发送网络消息包含小端字节序格式的数据。
 
-![](http://incdn1.b0.upaiyun.com/2016/09/4007758bbeaaef3b55265d45b507d5b6.png)
+![](./2.jpg)
 
 让我们看看本地过程调用是如何实现的。考虑下面的 C 语言的调用：
 
@@ -93,7 +93,7 @@ count = read(fd, buf, nbytes);
 
           以便获得最佳定位星位，提高定位精度。
 
-![](https://img-blog.csdn.net/20170520211123508?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMjQzOTQxNg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+![](./3.jpg)
 
 ------
 
@@ -207,10 +207,11 @@ count = read(fd, buf, nbytes);
 
 ###**python版**
 首先要安装python，2.x 3.x版均可，在官网下载安装 。
+
 https://www.python.org/
 
 下载rlsb脚本
-[rlsb脚本][/rlsb.py]
+[rlsb脚本][1]
 
 然后使用下面命令运行脚本即可。(要在脚本目录下)
 `python rlsb.py`
@@ -227,6 +228,9 @@ https://www.python.org/
 4.https://blog.csdn.net/netcoder/article/details/1694692
 5.https://www.cnblogs.com/happyhacking/p/4156516.html
 6.http://www.importnew.com/21660.html
+
+
+ [1]: https://github.com/zhengjim/RLSB/blob/master/rlsb.py
 
 
 本项目将不断更新，如果你感兴趣，可以持续关注, 点 Watch 或者 Star。同时，欢迎你提出宝贵的意见，或者投稿。使用 issues。

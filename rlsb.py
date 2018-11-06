@@ -4,4 +4,8 @@
 __author__ = 'zhengjim'
 
 
-print(u"荣林傻逼")
+def main():
+    print(u"荣林傻逼")
+
+if __name__ == '__main__':
+    main()
