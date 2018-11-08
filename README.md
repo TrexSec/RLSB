@@ -1,5 +1,10 @@
 # RLSB技术
 
+[![version](https://img.shields.io/badge/version-v1.0.0-red.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py) [![GitHub](https://img.shields.io/github/license/vulhub/vulhub.svg)](https://github.com/zhengjim/RLSB/blob/master/LICENSE) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py)
+
+[英文版本(English version)](README.en.md)
+
+
 ## 概述
 
 RLSB技术又称大数据区块链黑客技术  基于区块链5.0超融合一体机加云端全防御技术发送荣林傻逼字符
@@ -172,7 +177,7 @@ count = read(fd, buf, nbytes);
 请求响应和消息流服务
  
 
-###什么是协议?
+### 什么是协议?
 
 协议(protocol)定义了在网络实体(entities)之间传送消息的规则，例如，消息格式，发送和接收消息的次序。
 
@@ -181,7 +186,7 @@ count = read(fd, buf, nbytes);
 网络的分层结构
 网络为什么分层? 模块化可以简化系统维护和修改。每层的服务是通过更低层提供的服务和本层的功能来实现的。
 
-###因特网体系结构：
+### 因特网体系结构：
 
 应用层application: 提供对某些专门应用的支持   文件服务(FTP), 邮件(SMTP), 网页(HTTP)
 
