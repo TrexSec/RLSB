@@ -1,6 +1,7 @@
 # RLSB技术
 
-[![version](https://img.shields.io/badge/version-v1.0.0-red.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py) [![GitHub](https://img.shields.io/github/license/vulhub/vulhub.svg)](https://github.com/zhengjim/RLSB/blob/master/LICENSE) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/badges/shields.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py)
+[![version](https://img.shields.io/badge/version-v1.0.0-red.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py) [![GitHub](https://img.shields.io/github/license/vulhub/vulhub.svg)](https://github.com/zhengjim/RLSB/blob/master/LICENSE) [![GitHub code size in bytes](https://img.shields.io/badge/code%20size-2.18%20kb-blue.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py) [![Bitbucket open issues](https://img.shields.io/badge/issues-2%20open-yellow.svg)](https://github.com/zhengjim/RLSB/issues)
+
 
 [英文版本(English version)](README.en.md)
 
@@ -211,13 +212,14 @@ count = read(fd, buf, nbytes);
 
 
 ### **python版**
+
 首先要安装python，2.x 3.x版均可，在官网下载安装 。
 
 https://www.python.org/
 
-下载rlsb脚本
+下载RLSB脚本
 
-[rlsb脚本][1]
+[RLSB脚本](https://github.com/zhengjim/RLSB/blob/master/rlsb.py)
 
 然后使用下面命令运行脚本即可。(要在脚本目录下)
 
@@ -231,16 +233,15 @@ https://www.python.org/
 
 ## 参考文献
 
-1.https://www.cnblogs.com/zeze/p/6000719.html
-2.https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8/7854346?fr=aladdin
-3.https://blog.csdn.net/u012439416/article/details/72587966
-4.https://blog.csdn.net/netcoder/article/details/1694692
-5.https://www.cnblogs.com/happyhacking/p/4156516.html
-6.http://www.importnew.com/21660.html
+- https://www.cnblogs.com/zeze/p/6000719.html
+- https://baike.baidu.com/item/%E8%BF%9C%E7%A8%8B%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8/7854346?fr=aladdin
+- https://blog.csdn.net/u012439416/article/details/72587966
+- https://blog.csdn.net/netcoder/article/details/1694692
+- https://www.cnblogs.com/happyhacking/p/4156516.html
+- http://www.importnew.com/21660.html
 
 
- [1]: https://github.com/zhengjim/RLSB/blob/master/rlsb.py
 
 
-本项目将不断更新（将会推出英文版），如果你感兴趣，可以持续关注, 点 Watch 或者Star。同时，欢迎你提出宝贵的意见，或者投稿。使用 issues。
+本项目将不断更新（将会推出英文版），如果你感兴趣，可以持续关注, 点 Watch 或者Star。同时，欢迎你提出宝贵的意见，或者投稿。使用 [issues](https://github.com/zhengjim/RLSB/issues)。
 
