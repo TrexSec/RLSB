@@ -293,7 +293,7 @@ count = read(fd, buf, nbytes);
 #### **c++**
 
 
-[RLSB脚本-c++](https://github.com/zhengjim/RLSB/blob/master/basic/javascript/rlsb.cpp)
+[RLSB脚本-c++](https://github.com/zhengjim/RLSB/blob/master/basic/C%2B%2B/rlsb.cpp)
 
 ```
 g++ -o rlsb rlsb.cpp
