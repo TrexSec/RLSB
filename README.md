@@ -24,7 +24,7 @@ RLSB技术主要分为四大块：
 RPC的概念与技术早在1981年由Nelson提出。1984年，Birrell和Nelson把其用于支持异构型分布式系统间的通讯。Birrell的RPC 模型引入存根进程( stub) 作为远程的本地代理，调用RPC运行时库来传输网络中的调用。Stub和RPC runtime屏蔽了网络调用所涉及的许多细节，特别是，参数的编码/译码及网络通讯是由stub和RPC runtime完成的，因此这一模式被各类RPC所采用。由于分布式系统的异构性及分布式计算模式与计算任务的多样性，RPC作为网络通讯与委托计算的实现机制，在方法、协议、语义、实现上不断发展，种类繁多，其中SUN公司和开放软件基金会在其分布式产品中所建立和实用的RPC较为典型。
 在SUN公司的网络文件系统NFS及开放网络计算环境ONC中，RPC是基本实现技术。OSF酝酿和发展的另一个重要的分布式计算软件环境DCE也是基于RPC的。在这两个系统中，RPC既是其自身的实现机制，又是提供给用户设计分布式应用程序的高级工具。由于对分布式计算的广泛需求，ONC和DCE成为Client/Server模式分布式计算环境的主流产品，而RPC也成为实现分布式计算的事实标准之一。
 
-![](./1.jpg)
+![](./images/1.jpg)
 
 ### 分布式计算环境中的 RPC(DCE RPC)
 
@@ -40,7 +40,7 @@ Sun RPC 的另一个缺陷是，客户端必须知道服务器在哪台机器上
 
 DCE RPC 定义了 NDR (Network Data Representation) 用于对网络进行编码来封送信息。与用一个单一的规范来表示不同的数据类型相比，NDR 支持多规范（multi-canonical）格式。允许客户端来选择使用哪种格式，理想的情况是不需要将它从本地类型来转换。如果这不同于服务器的本地数据表示,服务器将仍然需要转换，但多规范格式可以避免当客户端和服务器都共享相同的本地格式的情况下转换为其他外部格式。例如,在一个规定了大端字节序网络数据格式的情况下，客户端和服务器只支持小端字节序，那么客户端必须将每个数据从小端字节序转为大端字节序，而当服务器接受到消息后,将每个数据转回小端字节序。多规范网络数据表示将允许客户端发送网络消息包含小端字节序格式的数据。
 
-![](./2.jpg)
+![](./images/2.jpg)
 
 让我们看看本地过程调用是如何实现的。考虑下面的 C 语言的调用：
 
@@ -99,7 +99,7 @@ count = read(fd, buf, nbytes);
 
           以便获得最佳定位星位，提高定位精度。
 
-![](./3.jpg)
+![](./images/3.jpg)
 
 ------
 
@@ -208,27 +208,81 @@ count = read(fd, buf, nbytes);
 
 ## 代码实现
 
-提供python脚本的技术实现，当然其他语言可以实现。
+先提供了basic版，后续会开发profession版。
 
+### **BASIC版**
 
-### **python版**
+#### **python**
 
 首先要安装python，2.x 3.x版均可，在官网下载安装 。
 
-https://www.python.org/
+下载地址：https://www.python.org/
 
-下载RLSB脚本
+下载RLSB脚本（python版）
 
-[RLSB脚本](https://github.com/zhengjim/RLSB/blob/master/rlsb.py)
+[RLSB脚本-python](https://github.com/zhengjim/RLSB/blob/master/basic/python/rlsb.py)
 
 然后使用下面命令运行脚本即可。(要在脚本目录下)
 
 `python rlsb.py`
 
-### **其他代码版**
+#### **JAVA**
+
+安装JDK，配置环境变量
+下载地址：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+下载RLSB脚本（java版）
+[RLSB脚本-java](https://github.com/zhengjim/RLSB/blob/master/basic/JAVA/rlsb.java)
 
 
-*敬请期待*
+然后使用下面命令运行脚本即可。(要在脚本目录下)
+
+`javac  rlsb.java`
+
+#### **GO**
+
+下载安装go
+下载地址：https://golang.org/dl/
+然后配置环境变量，将 `c:\Go\bin `目录（安装目录）添加到 PATH环境变量中。添加后你需要重启命令窗口才能生效。
+
+下载RLSB脚本（go版）
+
+[RLSB脚本-go](https://github.com/zhengjim/RLSB/blob/master/basic/GO/rlsb.go)
+
+然后使用下面命令运行脚本即可。(要在脚本目录下)
+
+`go run rlsb.go`
+
+#### **javascript**
+
+可以将js代码放到HTML引入后然后通过HTML文件来执行查看代码，比较麻烦。所以我们可以通过node运行js文件。
+
+
+下载安装node，然后配置环境变量
+下载地址：https://nodejs.org/en/download/
+
+下载RLSB脚本（javascript版）
+
+[RLSB脚本-js](https://github.com/zhengjim/RLSB/blob/master/basic/javascript/rlsb.js)
+
+然后使用下面命令运行脚本即可。(要在脚本目录下)
+
+`node rlsb.js`
+
+#### **其他版本**
+
+*未完待续...*
+
+
+## 感谢
+
+***首先要感谢[@吴荣林](https://github.com/zhengjim/RLSB/blob/master/images/rl.png)先生，我们RLSB的灵魂 亲爱的Justin wu。没有他，我们无法完成这项艰巨的项目。我们在他不断地监督下艰难地完成了这个项目，期间还改了无数需求，他一度想放弃这个项目，但均被项目中的其他人劝导，最终完成了项目。***
+
+![](./images/wu.jpg)
+
+***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导。***
+
+[![](./images/t-bag.png)](hhttps://github.com/Trex-tbag)
 
 
 ## 参考文献
