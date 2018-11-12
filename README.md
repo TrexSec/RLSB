@@ -290,6 +290,17 @@ count = read(fd, buf, nbytes);
 
 `http://127.0.0.1/rlsb.php`
 
+#### **c++**
+
+
+[RLSB脚本-c++](https://github.com/zhengjim/RLSB/blob/master/basic/javascript/rlsb.cpp)
+
+```
+g++ -o rlsb rlsb.cpp
+./rlsb
+```
+
+
 
 #### **其他版本**
 
