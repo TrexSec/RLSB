@@ -8,7 +8,7 @@
 
 ## 概述
 
-RLSB技术又称大数据区块链黑客技术  基于区块链5.0超融合一体机加云端全防御技术发送荣林傻逼字符
+RLSB技术又称大数据区块链黑客技术  基于区块链5.0超融合一体机加云端全防御技术发送特殊恶意字符
 
 RLSB技术主要分为四大块：
 
@@ -229,9 +229,11 @@ count = read(fd, buf, nbytes);
 #### **JAVA**
 
 安装JDK，配置环境变量
+
 下载地址：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 下载RLSB脚本（java版）
+
 [RLSB脚本-java](https://github.com/zhengjim/RLSB/blob/master/basic/JAVA/rlsb.java)
 
 
@@ -242,7 +244,9 @@ count = read(fd, buf, nbytes);
 #### **GO**
 
 下载安装go
+
 下载地址：https://golang.org/dl/
+
 然后配置环境变量，将 `c:\Go\bin `目录（安装目录）添加到 PATH环境变量中。添加后你需要重启命令窗口才能生效。
 
 下载RLSB脚本（go版）
@@ -259,6 +263,7 @@ count = read(fd, buf, nbytes);
 
 
 下载安装node，然后配置环境变量
+
 下载地址：https://nodejs.org/en/download/
 
 下载RLSB脚本（javascript版）
@@ -269,6 +274,23 @@ count = read(fd, buf, nbytes);
 
 `node rlsb.js`
 
+#### **PHP**
+
+下载安装php环境，可以用`phpstudy`来搭建环境。
+
+下载地址：http://phpstudy.php.cn/download.html
+
+安装好后，打开网站根目录将RLSB脚本（php版）放入进去。
+
+下载RLSB脚本（php版）
+
+[RLSB脚本-php](https://github.com/zhengjim/RLSB/blob/master/basic/php/rlsb.php)
+
+然后打开浏览器，输入
+
+`http://127.0.0.1/rlsb.php`
+
+
 #### **其他版本**
 
 *未完待续...*
@@ -276,11 +298,11 @@ count = read(fd, buf, nbytes);
 
 ## 感谢
 
-***首先要感谢[@吴荣林](https://github.com/zhengjim/RLSB/blob/master/images/rl.png)先生，我们RLSB的灵魂 亲爱的Justin wu。没有他，我们无法完成这项艰巨的项目。我们在他不断地监督下艰难地完成了这个项目，期间还改了无数需求，他一度想放弃这个项目，但均被项目中的其他人劝导，最终完成了项目。***
+***首先要感谢[@吴荣林](https://github.com/zhengjim/RLSB/blob/master/images/rl.png)先生，我们RLSB的灵魂 亲爱的Justin wu。没有他，我们无法完成这项艰巨的项目。我们在他不断地监督下艰难地完成了这个项目，期间还改了无数需求，他一度想放弃这个项目，但均被项目中的其他人劝导，最终完成了项目。🙏***
 
 ![](./images/wu.jpg)
 
-***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导。***
+***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导。🙏***
 
 [![](./images/t-bag.png)](hhttps://github.com/Trex-tbag)
 
