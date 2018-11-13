@@ -292,8 +292,12 @@ count = read(fd, buf, nbytes);
 
 #### **c++**
 
+下载RLSB脚本（c++版）
 
 [RLSB脚本-c++](https://github.com/zhengjim/RLSB/blob/master/basic/C%2B%2B/rlsb.cpp)
+
+
+然后使用下面命令运行脚本即可。(要在脚本目录下)
 
 ```
 g++ -o rlsb rlsb.cpp
@@ -309,11 +313,11 @@ g++ -o rlsb rlsb.cpp
 
 ## 感谢
 
-***首先要感谢[@吴荣林](https://github.com/zhengjim/RLSB/blob/master/images/rl.png)先生，我们RLSB的灵魂 亲爱的Justin wu。没有他，我们无法完成这项艰巨的项目。我们在他不断地监督下艰难地完成了这个项目，期间还改了无数需求，他一度想放弃这个项目，但均被项目中的其他人劝导，最终完成了项目。🙏***
+🙏***首先要感谢[@吴荣林](https://github.com/zhengjim/RLSB/blob/master/images/rl.png)先生，我们RLSB的灵魂 亲爱的Justin wu。没有他，我们无法完成这项艰巨的项目。我们在他不断地监督下艰难地完成了这个项目，期间还改了无数需求，他一度想放弃这个项目，但均被项目中的其他人劝导，最终完成了项目。***
 
 ![](./images/wu.jpg)
 
-***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导。🙏***
+🙏***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导。***
 
 [![](./images/t-bag.png)](hhttps://github.com/Trex-tbag)
 
