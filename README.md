@@ -218,11 +218,11 @@ count = read(fd, buf, nbytes);
 
 下载地址：https://www.python.org/
 
-下载RLSB脚本（python版）
+下载RLSB技术实现程序（python版）
 
-[RLSB脚本-python](https://github.com/zhengjim/RLSB/blob/master/basic/python/rlsb.py)
+[RLSB程序-python](https://github.com/zhengjim/RLSB/blob/master/basic/python/rlsb.py)
 
-然后使用下面命令运行脚本即可。(要在脚本目录下)
+然后使用下面命令运行程序即可。(要在程序目录下)
 
 `python rlsb.py`
 
@@ -232,12 +232,12 @@ count = read(fd, buf, nbytes);
 
 下载地址：https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-下载RLSB脚本（java版）
+下载RLSB技术实现程序（java版）
 
-[RLSB脚本-java](https://github.com/zhengjim/RLSB/blob/master/basic/JAVA/rlsb.java)
+[RLSB程序-java](https://github.com/zhengjim/RLSB/blob/master/basic/JAVA/rlsb.java)
 
 
-然后使用下面命令运行脚本即可。(要在脚本目录下)
+然后使用下面命令运行程序即可。(要在程序目录下)
 
 `javac  rlsb.java`
 
@@ -249,11 +249,11 @@ count = read(fd, buf, nbytes);
 
 然后配置环境变量，将 `c:\Go\bin `目录（安装目录）添加到 PATH环境变量中。添加后你需要重启命令窗口才能生效。
 
-下载RLSB脚本（go版）
+下载RLSB技术实现程序（go版）
 
-[RLSB脚本-go](https://github.com/zhengjim/RLSB/blob/master/basic/GO/rlsb.go)
+[RLSB程序-go](https://github.com/zhengjim/RLSB/blob/master/basic/GO/rlsb.go)
 
-然后使用下面命令运行脚本即可。(要在脚本目录下)
+然后使用下面命令运行程序即可。(要在程序目录下)
 
 `go run rlsb.go`
 
@@ -266,11 +266,11 @@ count = read(fd, buf, nbytes);
 
 下载地址：https://nodejs.org/en/download/
 
-下载RLSB脚本（javascript版）
+下载RLSB技术实现程序（javascript版）
 
-[RLSB脚本-js](https://github.com/zhengjim/RLSB/blob/master/basic/javascript/rlsb.js)
+[RLSB程序-js](https://github.com/zhengjim/RLSB/blob/master/basic/javascript/rlsb.js)
 
-然后使用下面命令运行脚本即可。(要在脚本目录下)
+然后使用下面命令运行程序即可。(要在程序目录下)
 
 `node rlsb.js`
 
@@ -282,9 +282,9 @@ count = read(fd, buf, nbytes);
 
 安装好后，打开网站根目录将RLSB脚本（php版）放入进去。
 
-下载RLSB脚本（php版）
+下载RLSB技术实现程序（php版）
 
-[RLSB脚本-php](https://github.com/zhengjim/RLSB/blob/master/basic/php/rlsb.php)
+[RLSB程序-php](https://github.com/zhengjim/RLSB/blob/master/basic/php/rlsb.php)
 
 然后打开浏览器，输入
 
@@ -292,18 +292,34 @@ count = read(fd, buf, nbytes);
 
 #### **c++**
 
-下载RLSB脚本（c++版）
+下载RLSB技术实现程序（c++版）
 
-[RLSB脚本-c++](https://github.com/zhengjim/RLSB/blob/master/basic/C%2B%2B/rlsb.cpp)
+[RLSB程序-c++](https://github.com/zhengjim/RLSB/blob/master/basic/C%2B%2B/rlsb.cpp)
 
 
-然后使用下面命令运行脚本即可。(要在脚本目录下)
+然后使用下面命令运行程序即可。(要在程序目录下)
 
 ```
 g++ -o rlsb rlsb.cpp
 ./rlsb
 ```
 
+#### **c#**
+
+
+下载RLSB技术实现程序（c#版）
+
+[RLSB程序-c#](https://github.com/zhengjim/RLSB/blob/master/basic/C%23/rlsb.cs)
+
+
+然后使用下面命令运行程序即可。(要在程序目录下)
+
+```
+csc /out:rlsb.exe rlsb.cs
+rlse
+```
+
+如果觉得麻烦，可以使用Visual C#—Windows—控制台应用程序来创建应用程序，将代码替换下即可。`control+F5`运行。
 
 
 #### **其他版本**
