@@ -321,6 +321,33 @@ rlse
 
 如果觉得麻烦，可以使用Visual C#—Windows—控制台应用程序来创建应用程序，将代码替换下即可。`control+F5`运行。
 
+#### **Ruby**
+
+下载RLSB技术实现程序（Ruby版）
+
+[RLSB程序-Ruby](https://github.com/zhengjim/RLSB/blob/master/basic/Ruby/rlsb.rb)
+
+
+然后使用下面命令运行程序即可。(要在程序目录下)
+
+```
+ruby ruby rlsb.rb
+```
+
+#### **Perl**
+
+下载RLSB技术实现程序（Perl版）
+
+[RLSB程序-Perl](https://github.com/zhengjim/RLSB/blob/master/basic/perl/rlsb.pl)
+
+
+然后使用下面命令运行程序即可。(要在程序目录下)
+
+```
+perl rlsb.pl
+```
+
+
 
 #### **其他版本**
 
