@@ -355,7 +355,7 @@ perl rlsb.pl
 
 用`visual basic 6.0`双击打开，然后按`F5`即可，或者使用我们已经编译好的程序。
 
-下载地址：https://github.com/zhengjim/RLSB/blob/master/basic/VB/RLSB.exe
+下载地址：[RLSB程序VB版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.0/RLSB.exe)
 
 
 
