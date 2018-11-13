@@ -358,6 +358,15 @@ perl rlsb.pl
 下载地址：[RLSB程序VB版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.0/RLSB.exe)
 
 
+#### **delphi**
+
+下载RLSB技术实现程序（delphi版）
+
+[RLSB程序-delphi](https://github.com/zhengjim/RLSB/blob/v1.0.1/basic/delphi/RLSB.dfm)
+
+用`delphi7`双击打开，然后按`F9`即可，或者使用我们已经编译好的程序。
+
+下载地址：[RLSB程序delphi版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.1/RLSB.exe)
 
 
 
