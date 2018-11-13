@@ -8,7 +8,7 @@
 
 ## 概述
 
-RLSB技术又称大数据区块链黑客技术  基于区块链5.0超融合一体机加云端全防御技术发送特殊恶意字符
+RLSB技术又称大数据区块链黑客技术  基于区块链5.0超融合一体机加云端全防御技术发送特殊恶意字符。
 
 RLSB技术主要分为四大块：
 
@@ -346,6 +346,18 @@ ruby ruby rlsb.rb
 ```
 perl rlsb.pl
 ```
+
+#### **VB**
+
+下载RLSB技术实现程序（VB版）
+
+[RLSB程序-VB](https://github.com/zhengjim/RLSB/blob/master/basic/VB/RLSB.vbp)
+
+用`visual basic 6.0`双击打开，然后按`F5`即可，或者使用我们已经编译好的程序。
+
+下载地址：https://github.com/zhengjim/RLSB/blob/master/basic/VB/RLSB.exe
+
+
 
 
 
