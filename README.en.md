@@ -1,8 +1,10 @@
-#RLSB Technology
+# RLSB Technology
 
 [![version](https://img.shields.io/badge/version-v1.0.0-red.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py) [![GitHub](https://img.shields.io/github/license/vulhub/vulhub.svg)](https://github.com/zhengjim/RLSB/blob/master/LICENSE) [![GitHub code size in bytes](https://img.shields.io/badge/code%20size-2.18%20kb-blue.svg)](https://github.com/zhengjim/RLSB/blob/master/rlsb.py) [![Bitbucket open issues](https://img.shields.io/badge/issues-2%20open-yellow.svg)](https://github.com/zhengjim/RLSB/issues)
 
-##Summary
+[中文版本(Chinese version)](README.md)
+
+## Summary
 
 RLSB technology is also known as big data blockchain hacking technology. Based on blockchain 5.0 super-converged machine plus cloud full defense technology to send special malicious characters.
 
@@ -353,11 +355,11 @@ download link：[RLSB program delphi version-releases](https://github.com/zhengj
 
 ## Thanks
 
-***First of all, thanks to [@吴荣林] (https://github.com/zhengjim/RLSB/blob/master/images/rl.png), the soul of our RLSB Dear Justin wu. Without him, we can't complete this daunting project. We managed to complete the project under the constant supervision of him. During the period, we changed many demands. He once wanted to give up the project, but they were all persuaded by others in the project and finally completed the project🙏.***
+***First of all, thanks to [@吴荣林](https://github.com/zhengjim/RLSB/blob/master/images/rl.png), the soul of our RLSB Dear Justin wu. Without him, we can't complete this daunting project. We managed to complete the project under the constant supervision of him. During the period, we changed many demands. He once wanted to give up the project, but they were all persuaded by others in the project and finally completed the project🙏.***
 
 ![](./images/wu.jpg)
 
-***Secondly, thanks to [@Trex_tbag] (https://github.com/Trex-tbag) for providing various versions of the code for our project, technical guidance🙏.***
+***Secondly, thanks to [@Trex_tbag](https://github.com/Trex-tbag) for providing various versions of the code for our project, technical guidance🙏.***
 
 [![](./images/t-bag.png)](hhttps://github.com/Trex-tbag)
 
@@ -375,7 +377,3 @@ download link：[RLSB program delphi version-releases](https://github.com/zhengj
 
 
 This project will be updated continuously (will be available in English), if you are interested, you can continue to pay attention, point to Watch or Star. At the same time, you are welcome to submit valuable comments or contribute. use issues](https://github.com/zhengjim/RLSB/issues).
-
-
-
-[中文版本(Chinese version)](README.md)
