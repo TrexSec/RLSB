@@ -385,6 +385,10 @@ perl rlsb.pl
 
 [![](./images/t-bag.png)](hhttps://github.com/Trex-tbag)
 
+***还要感谢[@CamilleLCM](https://github.com/CamilleLCM)为我们项目提供英文版本，为我们迈向国际化的踏出了重要的一步🙏。***
+
+[![](./images/camillelcm.png)](https://github.com/CamilleLCM)
+
 
 ## 参考文献
 
