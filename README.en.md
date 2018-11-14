@@ -10,10 +10,10 @@ RLSB technology is also known as big data blockchain hacking technology. Based o
 
 RLSB technology is mainly divided into four major blocks:
 
-1.R：RPC(Remote Procedure Call)Remote procedure call
-2.L:(Locate)Location
-3.S:(snoopware)Monitoring software
-4.B:BLU(Basic Link Unit)Basic link unit
+ 1. R：RPC(Remote Procedure Call)Remote procedure call
+ 2. L:(Locate)Location
+ 3. S:(snoopware)Monitoring software
+ 4. B:BLU(Basic Link Unit)Basic link unit
 
 ------
 
@@ -376,4 +376,4 @@ download link：[RLSB program delphi version-releases](https://github.com/zhengj
 
 
 
-This project will be updated continuously (will be available in English), if you are interested, you can continue to pay attention, point to Watch or Star. At the same time, you are welcome to submit valuable comments or contribute. use issues](https://github.com/zhengjim/RLSB/issues).
+This project will be updated continuously (will be available in English), if you are interested, you can continue to pay attention, point to Watch or Star. At the same time, you are welcome to submit valuable comments or contribute. use [issues](https://github.com/zhengjim/RLSB/issues).
