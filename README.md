@@ -381,13 +381,9 @@ perl rlsb.pl
 
 ![](./images/wu.jpg)
 
-***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导🙏。***
+***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各个版本的代码，技术上的指导🙏 , 还要感谢[@CamilleLCM](https://github.com/CamilleLCM)为我们项目提供英文版本，为我们迈向国际化的踏出了重要的一步🙏。***
 
-[![](./images/t-bag.png)](hhttps://github.com/Trex-tbag)
-
-***还要感谢[@CamilleLCM](https://github.com/CamilleLCM)为我们项目提供英文版本，为我们迈向国际化的踏出了重要的一步🙏。***
-
-[![](./images/camillelcm.png)](https://github.com/CamilleLCM)
+[![](./images/t-bag.png)](hhttps://github.com/Trex-tbag) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
 
 
 ## 参考文献
