@@ -359,7 +359,7 @@ download link：[RLSB program delphi version-releases](https://github.com/zhengj
 
 ![](./images/wu.jpg)
 
-***Secondly, I would like to thank @Trex_tbag for providing various versions of the code and technical guidance for our project🙏. Thanks to @CamilleLCM for providing the English version of our project and making our project more international🙏.****
+***Secondly, I would like to thank @Trex_tbag for providing various versions of the code and technical guidance for our project🙏. Thanks to @CamilleLCM for providing the English version of our project and making our project more international🙏.***
 
 [![](./images/t-bag.png)](https://github.com/Trex-tbag) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
 
