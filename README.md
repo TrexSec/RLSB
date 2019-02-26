@@ -369,6 +369,17 @@ perl rlsb.pl
 下载地址：[RLSB程序delphi版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.1/RLSB.exe)
 
 
+#### **易语言**
+
+下载RLSB技术实现程序（易语言版）
+
+[RLSB程序-易语言](https://github.com/zhengjim/RLSB/blob/master/basic/%E6%98%93%E8%AF%AD%E8%A8%80)
+
+用`易语言`双击打开，然后按`F5`即可，或者使用我们已经编译好的程序。
+
+下载地址：[RLSB程序delphi版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.2/RLSB.exe)
+
+
 
 #### **其他版本**
 

@@ -348,6 +348,16 @@ Double-click on `delphi7`, then press `F9`, or use the program we have compiled.
 download link：[RLSB program delphi version-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.1/RLSB.exe)
 
 
+#### **Easy Programming Language**
+
+Download RLSB technology implementation program (EPL version)
+
+[RLSB Program-EPL](https://github.com/zhengjim/RLSB/blob/master/basic/%E6%98%93%E8%AF%AD%E8%A8%80)
+
+Double-click on `Easy Programming Language`, then press `F5`, or use the program we have compiled.
+
+download link：[RLSB program EPL version-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.2/RLSB.exe)
+
 
 #### **Other version**
 
