@@ -377,7 +377,7 @@ perl rlsb.pl
 
 用`易语言`双击打开，然后按`F5`即可，或者使用我们已经编译好的程序。
 
-下载地址：[RLSB程序delphi版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.2/RLSB.exe)
+下载地址：[RLSB程序易语言版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.2/RLSB.exe)
 
 
 
