@@ -212,7 +212,7 @@ count = read(fd, buf, nbytes);
 
 ### **BASIC版**
 
-#### **python**
+#### **1.python**
 
 首先要安装python，2.x 3.x版均可，在官网下载安装 。
 
@@ -226,7 +226,7 @@ count = read(fd, buf, nbytes);
 
 `python rlsb.py`
 
-#### **JAVA**
+#### **2.JAVA**
 
 安装JDK，配置环境变量
 
@@ -241,7 +241,7 @@ count = read(fd, buf, nbytes);
 
 `javac  rlsb.java`
 
-#### **GO**
+#### **3.GO**
 
 下载安装go
 
@@ -257,7 +257,7 @@ count = read(fd, buf, nbytes);
 
 `go run rlsb.go`
 
-#### **javascript**
+#### **4.javascript**
 
 可以将js代码放到HTML引入后然后通过HTML文件来执行查看代码，比较麻烦。所以我们可以通过node运行js文件。
 
@@ -274,7 +274,7 @@ count = read(fd, buf, nbytes);
 
 `node rlsb.js`
 
-#### **PHP**
+#### **5.PHP**
 
 下载安装php环境，可以用`phpstudy`来搭建环境。
 
@@ -290,7 +290,7 @@ count = read(fd, buf, nbytes);
 
 `http://127.0.0.1/rlsb.php`
 
-#### **c++**
+#### **6.c++**
 
 下载RLSB技术实现程序（c++版）
 
@@ -304,7 +304,7 @@ g++ -o rlsb rlsb.cpp
 ./rlsb
 ```
 
-#### **c#**
+#### **7.c#**
 
 
 下载RLSB技术实现程序（c#版）
@@ -321,7 +321,7 @@ rlse
 
 如果觉得麻烦，可以使用Visual C#—Windows—控制台应用程序来创建应用程序，将代码替换下即可。`control+F5`运行。
 
-#### **Ruby**
+#### **8.Ruby**
 
 下载RLSB技术实现程序（Ruby版）
 
@@ -334,7 +334,7 @@ rlse
 ruby ruby rlsb.rb
 ```
 
-#### **Perl**
+#### **9.Perl**
 
 下载RLSB技术实现程序（Perl版）
 
@@ -347,7 +347,7 @@ ruby ruby rlsb.rb
 perl rlsb.pl
 ```
 
-#### **VB**
+#### **10.VB**
 
 下载RLSB技术实现程序（VB版）
 
@@ -358,7 +358,7 @@ perl rlsb.pl
 下载地址：[RLSB程序VB版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.0/RLSB.exe)
 
 
-#### **delphi**
+#### **11.delphi**
 
 下载RLSB技术实现程序（delphi版）
 
@@ -369,7 +369,7 @@ perl rlsb.pl
 下载地址：[RLSB程序delphi版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.1/RLSB.exe)
 
 
-#### **易语言**
+#### **12.易语言**
 
 下载RLSB技术实现程序（易语言版）
 
@@ -379,6 +379,24 @@ perl rlsb.pl
 
 下载地址：[RLSB程序易语言版-releases](https://github.com/zhengjim/RLSB/releases/download/v1.0.2/RLSB.exe)
 
+#### **13.TCL**
+
+如果是linux平台的，直接安装tcl即可。安装命令如下：
+ubuntu
+```apt-get install tcl```
+centos
+```yum install tcl```
+如果是windows，需要安装`WinGW`。
+
+下载RLSB技术实现程序（TCL版）
+
+[RLSB程序-TCL](https://github.com/zhengjim/RLSB/blob/master/basic/TCL/rlsb.tcl)
+
+然后使用下面命令运行程序即可。(要在程序目录下)
+
+```
+tclsh rlsb.tcl
+```
 
 
 #### **其他版本**
@@ -396,6 +414,13 @@ perl rlsb.pl
 
 [![](./images/t-bag.png)](hhttps://github.com/Trex-tbag) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
 
+
+## TODO
+- [x] 完成RLSB技术基础实现版
+
+- [ ] 完成RLSB技术专业实现版
+
+- [ ] 将RLSB技术推向世界
 
 ## 参考文献
 
