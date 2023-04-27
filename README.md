@@ -410,9 +410,9 @@ tclsh rlsb.tcl
 
 ![](./images/wu.jpg)
 
-***其次还要感谢[@Trex_tbag](https://github.com/Trex-tbag)为我们项目提供各版本代码以及技术上的指导🙏 , 还要感谢[@CamilleLCM](https://github.com/CamilleLCM)为我们项目提供英文版本，让我们的项目更国际化🙏。***
+***其次还要感谢[@Trex_tbag](https://github.com/deFming)为我们项目提供各版本代码以及技术上的指导🙏 , 还要感谢[@CamilleLCM](https://github.com/CamilleLCM)为我们项目提供英文版本，让我们的项目更国际化🙏。***
 
-[![](./images/t-bag.png)](hhttps://github.com/Trex-tbag) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
+[![](./images/t-bag.png)](https://github.com/deFming) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
 
 
 ## TODO

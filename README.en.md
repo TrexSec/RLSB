@@ -6,48 +6,47 @@
 
 ## Summary
 
-RLSB technology is also known as big data blockchain hacking technology. Based on blockchain 5.0 super-converged machine plus cloud full defense technology to send special malicious characters.
+RLSB technology, also known as big data blockchain hacking technology, is based on blockchain 5.0 super-converged machines and cloud-based full defense technology to send special malicious characters.
 
 RLSB technology is mainly divided into four major blocks:
 
- 1. R：RPC(Remote Procedure Call)Remote procedure call
- 2. L:(Locate)Location
- 3. S:(snoopware)Monitoring software
- 4. B:BLU(Basic Link Unit)Basic link unit
+ 1. R:Remote Procedure Call (RPC)
+ 2. L:Location
+ 3. S:Snoopware
+ 4. B:Basic Link Unit (BLU)
 
 ------
 
 ## RPC(Remote Procedure Call)Remote procedure call
 
-The concept and technology of RPC was proposed by Nelson in 1981.In 1984, Birrell and Nelson used it to support communication between heterogeneous distributed systems. Birrell's RPC model introduces a stub process as a remote local agent,Call the RPC runtime library to transfer calls in the network.Stub and RPC runtime block many of the details involved in network calls. In particular, parameter encoding/decoding and network communication are done by stub and RPC runtime, so this mode is adopted by various RPCs. Due to the heterogeneity of distributed systems, the diversity of distributed computing models and computing tasks, RPC, as the implementation mechanism of network communication and entrusted computing, has been continuously developed in methods, protocols, semantics, and implementations, among which SUN and The RPC that the Open Software Foundation has built and applied in its distributed products is typical.
-In Sun's network file system NFS and open network computing environment ONC, RPC is the basic implementation technology. Another important distributed computing software environment DCE for OSF development and development is also based on RPC. In both systems, RPC is both its own implementation mechanism and an advanced tool for users to design distributed applications. Due to the widespread demand for distributed computing, ONC and DCE become the mainstream products of the Client/Server mode distributed computing environment, and RPC has become one of the de facto standards for implementing distributed computing.
+The concept and technology of RPC were first proposed by Nelson in 1981. In 1984, Birrell and Nelson used it to support communication between heterogeneous distributed systems. Birrell's RPC model introduces a stub process as a remote local agent, calling the RPC runtime library to transfer calls in the network. The stub and RPC runtime block many of the details involved in network calls. In particular, parameter encoding/decoding and network communication are handled by the stub and RPC runtime, so this mode is adopted by various RPCs. Due to the heterogeneity of distributed systems and the diversity of distributed computing models and tasks, RPC has been continuously developed in terms of methods, protocols, semantics, and implementations. SUN and the Open Software Foundation have built and applied RPC in their distributed products, making it a typical implementation mechanism for network communication and delegated computing.
+In SUN's Network File System (NFS) and the Open Network Computing Environment (ONC), RPC is a fundamental implementation technology. Another important distributed computing software environment, DCE, which was developed by the Open Software Foundation, is also based on RPC. In both systems, RPC is not only its own implementation mechanism but also a high-level tool provided to users for designing distributed applications. Due to the widespread demand for distributed computing, ONC and DCE have become the mainstream products of the client/server model for distributed computing environments, and RPC has become one of the de facto standards for implementing distributed computing.
 
 ![](./images/1.jpg)
 
 ### In a distributed computing environment RPC(DCE RPC)
 
-DCE (Distributed Computing Environment) is a set of components designed by OFS (Open Software Foundation) to provide support for distributed applications and distributed environments. After merging with X/Open, the organization became The Open Group. The components provided by DCE include a distributed file service, time service, directory service, and other services. Of course, we are interested in DCE's remote procedure calls. It is very similar to Sun RPC. The interface is defined by the Interface Definition Notation (IDN). Similar to Sun RPC, interface definitions are like function prototypes.
+DCE (Distributed Computing Environment) is a set of components designed by the Open Software Foundation (OSF) to provide support for distributed applications and environments. After merging with X/Open, the organization became The Open Group. The components provided by DCE include a distributed file service, time service, directory service, and other services. Of course, what we're interested in is DCE's remote procedure call. It is very similar to Sun RPC. The interface is defined by Interface Definition Notation (IDN). Similar to Sun RPC, the interface definition looks like a function prototype.
 
-The downside of Sun RPC is that the server's identity is a "unique" 32-bit number. Although this is a larger space than the 16-bit free space in the socket, it still does not meet the needs of digital uniqueness. DCE RPC takes this into account and it does not require a programmer to handle the code. The first step in writing an application is to get a unique ID from the uuidgen program. This program will generate a prototype IDN file containing the ID interface and guarantee that it will never be used again. It is a 128-bit value that contains a code for the location code and creation time. The user then edits the prototype file and fills in the remote procedure declaration.
+The drawback of Sun RPC is that the server identification is a "unique" 32-bit number. Although this is a larger space than the 16-bit available space in sockets, it still cannot meet the requirement of unique identification. DCE RPC addresses this issue by not requiring the programmer to handle encoding. The first step in writing an application is to obtain a unique ID from the uuidgen program. This program generates a prototype IDN file containing the ID interface and ensures that it will never be used again. It is a 128-bit value that includes an encoding of the location code and creation time. The user then edits the prototype file and fills in the remote procedure declarations.
 
-After this step, IDN's compiler dceidl (similar to rpcgen) generates a header, client stub, and server stub.
+After this step, the IDN compiler dceidl (similar to rpcgen) will generate a header file, client stub, and server stub.
 
-Another drawback of Sun RPC is that the client must know which machine the server is on. When it wants to access, you must ask for the port number corresponding to the RPC name service program code on the machine. DCE supports the organization of multiple machines into a managed entity called cells. The cell directory server lets each machine know how to interact with another machine that is responsible for maintaining the cell information service.
+Another drawback of Sun RPC is that the client needs to know which machine the server is on. When it wants to access the server, it needs to ask the RPC name service program on the machine to get the port number for the encoded program. DCE supports organizing multiple machines into management entities called cells. The cell directory server enables each machine to know how to interact with another machine responsible for maintaining cell information services.
 
-In Sun RPC, the server can only register its program number to port mapping with a local name service (port mapper). In DCE, the server uses the RPC daemon (name server) to register its endpoint (port) to the local machine and registers its program name to machine mapping with the cell directory server. When a client wants to establish communication with an RPC server, it first asks its cell directory server to locate the machine on which the server resides. The client then obtains the port number of the server process on the machine from the RPC daemon. DCE's cross-cell also supports more complex searches.
+In Sun RPC, the server can only register its program number to a port mapper using the local name service. In contrast, in DCE, the server uses an RPC daemon (name server) to register its endpoint (port) to the local machine and a cell directory server to register the mapping of the program name to the machine. When a client wants to communicate with an RPC server, it first requests its cell directory server to locate the machine where the server resides. Then the client obtains the port number of the server process from the RPC daemon on the machine. DCE's cross-cell also supports more complex searches.
 
-DCE RPC defines NDR (Network Data Representation) to encode the network to marshal information. NDR supports multi-canonical formats compared to using a single specification to represent different data types. Allow the client to choose which format to use, ideally without having to convert it from a local type. If this is different from the server's local data representation, the server will still need to convert, but the multi-specific format avoids converting to other external formats if both the client and server share the same native format. For example, in the case where a big endian network data format is specified, the client and server only support little endian, then the client must convert each data from little endian to big endian. And when the server receives the message, it transfers each data back to little endian. Multi-specification network data representations will allow clients to send network messages containing data in little endian format.
+Correct! The Network Data Representation (NDR) used by DCE RPC is designed to encode data for transmission over the network. Unlike Sun RPC's single specification for representing different data types, NDR supports multi-canonical formats. This allows clients to choose which format to use and ideally avoids the need to convert from local types. However, if this differs from the server's local data representation, the server will still need to perform conversions. For example, if a network data format specifies big-endian byte order and the client and server only support little-endian byte order, the client must convert each data item from little-endian to big-endian before sending the message, and the server must convert each item back to little-endian after receiving it. Multi-canonical network data representation would allow the client to send network messages containing data in the little-endian byte order format.
 
 ![](./images/2.jpg)
 
-Now let's see how the local procedure call is implemented. Consider the following C language call:
+Let's take a look at how local procedure calls are implemented. Consider the following C language call:
 
 ```
 count = read(fd, buf, nbytes);
 ```
 
-Where fd is an integer and represents a file. Buf is an array of characters used to store the data read in. Nbytes is another integer that records the number of bytes actually read. If the call is in the main program, the state of the stack before the call is shown in Figure 2(a). In order to make the call, the caller first pushes the parameters back into the stack, which is the first parameter to be pushed first, as shown in Figure 2(b). After the read operation completes, it places the return value in a register, moves the return address back, and passes control back to the caller. The caller then moves the parameters out of the stack, restoring the stack to its original state.
-
+Where fd is an integer representing a file, buf is a character array used to store read data, and nbytes is another integer used to record the actual number of bytes read. If this call is located in the main program, the stack's state before the call is shown in Figure 2(a). To make the call, the caller first pushes the parameters in reverse order onto the stack, with the last parameter pushed first, as shown in Figure 2(b). After the read operation is completed, it places the return value in a register, pops the return address, and returns control to the caller. The caller then pops the parameters from the stack, restoring the stack to its initial state.
 
 ------
 
@@ -390,9 +389,9 @@ tclsh rlsb.tcl
 
 ![](./images/wu.jpg)
 
-***Secondly, I would like to thank @Trex_tbag for providing various versions of the code and technical guidance for our project🙏. Thanks to @CamilleLCM for providing the English version of our project and making our project more international🙏.***
+***Secondly, I would like to thank @deFming for providing various versions of the code and technical guidance for our project🙏. Thanks to @CamilleLCM for providing the English version of our project and making our project more international🙏.***
 
-[![](./images/t-bag.png)](https://github.com/Trex-tbag) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
+[![](./images/t-bag.png)](https://github.com/deFming) [![](./images/camillelcm.png)](https://github.com/CamilleLCM)
 
 
 ## TODO
